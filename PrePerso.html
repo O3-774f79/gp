@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+<nav class="main-nav-outer" id="test">
+  <!--main-nav-start-->
+  <div class="container">
+    <ul class="main-nav">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#Portfolio">Portfolio</a></li>
+      <li><a href="#client">Clients</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+  </div>
+</nav>
+<!--main-nav-end-->
+
+<body>
+  <section class="main-section" id="service">
+    <!--main-section-start-->
+    <div class="container">
+      <h2>Card Production System</h2>
+      <h6>Card Infomation</h6>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col2">
+              <h3>PID</h3>
+              <p id="pid">.................................................................................................</p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col2">
+              <h3>ชื่อ-สกุล</h3>
+              <p id="thai_name">.................................................................................................</p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col2">
+              <h3>Name-Lastname</h3>
+              <p id="eng_name">.................................................................................................</p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col2">
+              <h3>เกิด</h3>
+              <p id="dob">.................................................................................................</p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col2">
+              <h3>ศาสนา</h3>
+              <p id="reg">.................................................................................................</p>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-list-col2">
+              <h3>ที่อยู่</h3>
+              <p id="address">.................................................................................................</p>
+            </div>
+          </div>
+
+        </div>
+        <figure class="col-lg-6 col-sm-5  text-right wow fadeInUp delay-02s">
+          <img src="./687474703a2f2f7777772e6a71756572797363726970742e6e65742f696d616765732f53696d706c6573742d526573706f6e736976652d6a51756572792d496d6167652d4c69676874626f782d506c7567696e2d73696d706c652d6c69676874626f782e6a7067.jpg"
+            alt="">
+        </figure>
+      </div>
+      <button style="margin:20px" id="btn">Click me</button>
+    </div>
+
+  </section>
+  <!--main-section-end-->
+
+
+
+
+</body>
+<script>
+  $(document).ready(function () {
+    $("#btn").click(function () {
+      $("#pid").html("<p><b>0-000-00000-00-0 </b></p>")
+      $("#thai_name").html("<p><b>นาย ทดสอบ ทดทดสอบ </b></p>")
+      $("#eng_name").html("<p><b>mr. test testtest </b></p>")
+      $("#dob").html("<p><b> 00-00-0000 </b></p>")
+      $("#reg").html("<p><b> พุทธ </b></p>")
+      $("#address").html("<p><b> thailand  </b></p>")
+
+    })
+  })
+
+</script>
+
+</html>
