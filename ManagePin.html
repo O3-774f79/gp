@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+<nav class="main-nav-outer" id="test">
+  <!--main-nav-start-->
+  <div class="container">
+    <ul class="main-nav">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#Portfolio">Portfolio</a></li>
+      <li><a href="#client">Clients</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+  </div>
+</nav>
+
+<body>
+  <section class="main-section" id="service">
+    <!--main-section-start-->
+    <div class="container">
+      <h2>Services</h2>
+      <h6>We offer exceptional service with complimentary hugs.</h6>
+      <div class="row">
+        <div class="col-lg-2 col-sm-1  text-left wow fadeInUp delay-02s">
+          <h3>นาย พิทักษ์ ปกป้อง </h3>
+        </div>
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col2">
+              <input style="width: 100%" value="1234567812345678123456781234567812345678123456781234567812345678"></input>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-1  text-left wow fadeInUp delay-02s">
+          <input type="checkbox" id="toggle-two">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-sm-1  text-left wow fadeInUp delay-02s">
+          <h3>นาย พิทักษ์ ปกป้อง </h3>
+        </div>
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col2">
+              <input style="width: 100%" value="1234567812345678123456781234567812345678123456781234567812345678"></input>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-1  text-left wow fadeInUp delay-02s">
+          <input type="checkbox" id="toggle-two">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-sm-1  text-left wow fadeInUp delay-02s">
+          <h3>นาย พิทักษ์ ปกป้อง </h3>
+        </div>
+        <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          <div class="service-list">
+            <div class="service-list-col2">
+              <input style="width: 100%" value="1234567812345678123456781234567812345678123456781234567812345678"></input>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-1  text-left wow fadeInUp delay-02s">
+          <input type="checkbox" id="toggle-two">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--main-section-end-->
+</body>
+<script>
+  $(function () {
+    $('#toggle-two').bootstrapToggle({
+      on: 'Enabled',
+      off: 'Disabled'
+    });
+  })
+
+</script>
+
+</html>
